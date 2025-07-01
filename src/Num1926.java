@@ -65,7 +65,7 @@ public class Num1926 {
         int[] dy = {0, 0, -1, 1};
 
         while (!queue.isEmpty()) { // 큐가 빌때까지 무한루프
-            int[] current = queue.poll();
+            int[] current = queue.poll(); // poll은 큐에서 꺼내면서 제거
             int cx = current[0];
             int cy = current[1];
 
